@@ -5,6 +5,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootTest
+@EnableJpaRepositories
 class SmartsuplifyApplicationTests {
 
 	@Test
